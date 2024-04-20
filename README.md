@@ -1,1 +1,1 @@
-# ssociation-Rule-Mining-Algorithm
+# Association-Rule-Mining-Algorithm
