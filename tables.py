@@ -1,0 +1,34 @@
+# Create query
+table_L1 = """CREATE TABLE if not Exists L1 (
+indexNum INTEGER PRIMARY KEY AUTOINCREMENT,
+item1 VARCHAR(500));"""
+
+table_L2 = """CREATE TABLE if not Exists L2 (
+indexNum INTEGER PRIMARY KEY AUTOINCREMENT,
+item1 VARCHAR(500),
+item2 VARCHAR(500));"""
+
+table_L3 = """CREATE TABLE if not Exists L3 (
+indexNum INTEGER PRIMARY KEY AUTOINCREMENT,
+item1 VARCHAR(500),
+item2 VARCHAR(500),
+item3 VARCHAR(500));"""
+
+
+table_C2 = """CREATE TABLE if not Exists C2 (
+indexNum INTEGER PRIMARY KEY AUTOINCREMENT,
+item1 VARCHAR(500),
+item2 VARCHAR(500));"""
+
+table_C3 = """CREATE TABLE if not Exists C3 (
+indexNum INTEGER PRIMARY KEY AUTOINCREMENT,
+item1 VARCHAR(500),
+item2 VARCHAR(500),
+item3 VARCHAR(500));"""
+
+table_C4 = """CREATE TABLE if not Exists C4 (
+indexNum INTEGER PRIMARY KEY AUTOINCREMENT,
+item1 VARCHAR(500),
+item2 VARCHAR(500),
+item3 VARCHAR(500),
+item4 VARCHAR(500));"""
