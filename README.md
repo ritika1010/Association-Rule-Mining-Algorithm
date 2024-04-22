@@ -100,7 +100,7 @@ The code implements the Apriori algorithm, a classic algorithm for association r
 
 ## (f) Sample run:
 - python3 main.py INTEGRATED-DATASET.csv 0.001 0.5
-The result looks interesting as from the data we can find that the death cause is prominent for some genders and some ethnicity.
+- The result looks interesting as from the data we can find that the death cause is prominent for some genders and some ethnicity.
     - (death cause) → (gender)
     - (death cause) → (ethnicity)
     - (ethnicity) → (gender)
