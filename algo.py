@@ -170,7 +170,7 @@ def main():
                     if L[2][c]/L[1][c[1]] >= min_conf:
                         associations.add((tuple((c[1],)), tuple((c[0],)), L[2][c]/L[1][c[1]], L[2][c]))
 
-    f = open("output.txt", "w")
+    f = open("example-run.txt", "w")
     f.write(("==Frequent itemsets (min_sup={}%)==\n").format(min_sup * 100))
     
     itemsets = []
