@@ -101,15 +101,15 @@ The code implements the Apriori algorithm, a classic algorithm for association r
 ## (f) Sample run:
 - python3 main.py INTEGRATED-DATASET.csv 0.001 0.5
 The result looks interesting as from the data we can find that the death cause is prominent for some genders and some ethnicity.
-(death cause) → (gender)
-(death cause) → (ethnicity)
-(ethnicity) → (gender)
-(year, ethnicity) → (gender)
+    - (death cause) → (gender)
+    - (death cause) → (ethnicity)
+    - (ethnicity) → (gender)
+    - (year, ethnicity) → (gender)
 
 **Examples:** 
-('human immunodeficiency virus disease (hiv: b20-b24)',) ===> ('male',)	 conf: 66.83% 	 supp: 1.44%
-('human immunodeficiency virus disease (hiv: b20-b24)',) ===> ('black non-hispanic',)	 conf: 65.91% 	 supp: 1.42%
-('diabetes mellitus (e10-e14)',) ===> ('female',)	 conf: 52.38% 	 supp: 2.86%
+- ('human immunodeficiency virus disease (hiv: b20-b24)',) ===> ('male',)	 conf: 66.83% 	 supp: 1.44%
+- ('human immunodeficiency virus disease (hiv: b20-b24)',) ===> ('black non-hispanic',)	 conf: 65.91% 	 supp: 1.42%
+- ('diabetes mellitus (e10-e14)',) ===> ('female',)	 conf: 52.38% 	 supp: 2.86%
 
 
 
