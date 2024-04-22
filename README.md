@@ -8,8 +8,7 @@
 - proj3.tar.gz file with the project code
     - algo.py
     - clean_data.py
-    - tables.py
-- INTEGRATED_DATASET.csv
+- INTEGRATED-DATASET.csv
 - README
 - example-run.txt
 
@@ -99,7 +98,7 @@ The code implements the Apriori algorithm, a classic algorithm for association r
 3. Performance Optimization: Techniques such as dynamic table creation and efficient support calculation contribute to improved performance and reduced complexity.
 
 ## (f) Sample run:
-- python3 main.py INTEGRATED-DATASET.csv 0.001 0.5
+- python3 algo.py INTEGRATED-DATASET.csv 0.001 0.5
 - The result looks interesting as from the data we can find that the death cause is prominent for some genders and some ethnicity.
     - (death cause) → (gender)
     - (death cause) → (ethnicity)

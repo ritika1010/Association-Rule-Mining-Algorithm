@@ -4,7 +4,6 @@ import sys
 import sqlite3
 from collections import defaultdict
 import sqlite3  # Import sqlite3 module
-from tables import *
 from operator import itemgetter
 
 # Define table creation statements

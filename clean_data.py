@@ -13,4 +13,4 @@ df = df.dropna()
 df['Sex'] = df['Sex'].map({'F': 'Female', 'M': 'Male'})
 
 # Store cleaned data into a new CSV file
-df.to_csv('INTEGRATED-DATA.csv', index=False)
+df.to_csv('INTEGRATED-DATASET.csv', index=False)
